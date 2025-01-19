@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>AYUSH RAJ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -101,7 +101,13 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Welcome to my website! Here you will find information about me, my work, and my upcoming projects.</p>
+        <p>Welcome to my website!
+
+I'm so excited that you've decided to visit today! Whether you're here to explore, learn, or find something new, I'm confident you'll discover something that resonates with you. My goal is to provide you with a great experience, and I hope you enjoy what I've created.
+
+Take your time, explore the different sections, and feel free to reach out if you have any questions. I'm here to help, and I can't wait for you to be a part of this journey!
+
+Thanks for stopping by, and I hope you enjoy your time here!.</p>
         <div class="container">
             <div class="image-container">
                 <img src="your-image.jpg" alt="Your Image">
