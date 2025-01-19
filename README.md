@@ -3,13 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A personal website to showcase images, projects, and more.">
-    <meta name="keywords" content="personal website, gallery, projects, contact">
-    <meta name="author" content="Your Name">
-    <title>Your Professional Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Your Website</title>
     <style>
-        /* Insert the updated CSS here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image-container {
+            margin: 10px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #444;
+        }
+        .project-list {
+            display: flex;
+            flex-direction: column;
+        }
+        .project-item {
+            background-color: #e2e2e2;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -28,7 +101,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hey there! I created this website to showcase my images and projects. I'm open to suggestions on how to improve this space!</p>
+        <p>Hey people, I was getting board so I thought to create a website which will help me in stroing my upcominng pictures, This website is built using html, You all are free to suggest me what should I do with this website, .</p>
         <div class="container">
             <div class="image-container">
                 <img src="your-image.jpg" alt="Your Image">
@@ -39,7 +112,7 @@
     <!-- Gallery Section -->
     <section id="gallery">
         <h2>Gallery</h2>
-        <p>Check out some of my favorite images:</p>
+        <p>Here are some images I would like to share:</p>
         <div class="container">
             <div class="image-container">
                 <img src="image1.jpg" alt="Image 1">
@@ -75,7 +148,7 @@
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>If you have any questions or just want to chat, feel free to send me a message!</p>
+        <p>If you have any questions or just want to chat, feel free to send me a message below!</p>
         <form action="https://formspree.io/f/xzzzlkll" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
