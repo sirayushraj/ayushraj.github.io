@@ -21,7 +21,7 @@
             overflow: hidden;
         }
         nav a {
-            color: white;
+            color: black;
             padding: 14px 20px;
             text-decoration: none;
             float: left;
@@ -86,7 +86,7 @@
 </head>
 <body>
     <header>
-        <h1>Your Website Name</h1>
+        <h1>From Ayush</h1>
         <p>Welcome to my personal website!</p>
     </header>
 
@@ -100,7 +100,7 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hey people, I was getting board so I thought to create a website which will help me in stroing my upcominng pictures, This website is built using html, You all are free to suggest me what should I do with this website, .</p>
+        <p>Hey people, I was getting board so I thought to create a website which will help me in stroing my upcominng pictures, This website is built using html, You all are free to suggest me what should I do with this website? .</p>
         <div class="container">
             <div class="image-container">
                 <img src="your-image.jpg" alt="Your Image">
