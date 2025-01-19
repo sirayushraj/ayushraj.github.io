@@ -149,7 +149,7 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <p>If you have any questions or just want to chat, feel free to send me a message below!</p>
-        <form action="https://formspree.io/f/your-endpoint-id" method="POST">
+        <form action="https://formspree.io/f/xzzzlkll" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
